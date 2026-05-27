@@ -80,4 +80,9 @@ class AnalysisController extends Controller
             'uploads' => $uploads
         ]);
     }
+
+    public function testing(){
+        
+        echo "hello worlds";
+    }
 }
